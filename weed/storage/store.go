@@ -2,9 +2,9 @@ package storage
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
+	"../glog"
+	"../pb/master_pb"
+	. "../storage/types"
 )
 
 const (

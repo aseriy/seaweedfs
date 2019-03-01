@@ -1,4 +1,6 @@
-package: github.com/chrislusf/seaweedfs/weed
+package: .
+ignore:
+- ${GOPATH}/seaweedfs
 import:
 - package: cloud.google.com/go
   subpackages:

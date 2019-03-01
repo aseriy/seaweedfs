@@ -3,9 +3,9 @@ package operation
 import (
 	"context"
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../pb/volume_server_pb"
+	. "../storage/types"
+	"../util"
 	"google.golang.org/grpc"
 	"io"
 )

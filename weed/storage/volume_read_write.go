@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
+	"../glog"
+	. "../storage/types"
 )
 
 var ErrorNotFound = errors.New("not found")

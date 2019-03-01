@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	"github.com/chrislusf/raft"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/storage"
-	"github.com/chrislusf/seaweedfs/weed/topology"
+	"../pb/master_pb"
+	"../security"
+	"../storage"
+	"../topology"
 )
 
 func (ms *MasterServer) LookupVolume(ctx context.Context, req *master_pb.LookupVolumeRequest) (*master_pb.LookupVolumeResponse, error) {

@@ -5,9 +5,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../glog"
+	. "../storage/types"
+	"../util"
 )
 
 func (v *Volume) garbageLevel() float64 {

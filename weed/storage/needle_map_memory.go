@@ -4,9 +4,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/storage/needle"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
+	"../glog"
+	"../storage/needle"
+	. "../storage/types"
 )
 
 type NeedleMap struct {

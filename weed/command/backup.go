@@ -2,12 +2,12 @@ package command
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/server"
+	"../security"
+	"../server"
 	"github.com/spf13/viper"
 
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/storage"
+	"../operation"
+	"../storage"
 )
 
 var (

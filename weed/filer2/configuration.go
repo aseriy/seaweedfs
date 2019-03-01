@@ -3,7 +3,7 @@ package filer2
 import (
 	"os"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"../glog"
 	"github.com/spf13/viper"
 )
 

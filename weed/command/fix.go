@@ -5,9 +5,9 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/storage"
-	"github.com/chrislusf/seaweedfs/weed/storage/types"
+	"../glog"
+	"../storage"
+	"../storage/types"
 )
 
 func init() {

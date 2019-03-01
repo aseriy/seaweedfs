@@ -3,16 +3,16 @@ package command
 import (
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/replication"
-	"github.com/chrislusf/seaweedfs/weed/replication/sink"
-	_ "github.com/chrislusf/seaweedfs/weed/replication/sink/azuresink"
-	_ "github.com/chrislusf/seaweedfs/weed/replication/sink/b2sink"
-	_ "github.com/chrislusf/seaweedfs/weed/replication/sink/filersink"
-	_ "github.com/chrislusf/seaweedfs/weed/replication/sink/gcssink"
-	_ "github.com/chrislusf/seaweedfs/weed/replication/sink/s3sink"
-	"github.com/chrislusf/seaweedfs/weed/replication/sub"
-	"github.com/chrislusf/seaweedfs/weed/server"
+	"../glog"
+	"../replication"
+	"../replication/sink"
+	_ "../replication/sink/azuresink"
+	_ "../replication/sink/b2sink"
+	_ "../replication/sink/filersink"
+	_ "../replication/sink/gcssink"
+	_ "../replication/sink/s3sink"
+	"../replication/sub"
+	"../server"
 	"github.com/spf13/viper"
 )
 

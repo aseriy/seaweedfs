@@ -1,8 +1,8 @@
 package storage
 
 import (
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/operation"
+	"../glog"
+	"../operation"
 	"io/ioutil"
 	"mime"
 	"net/http"

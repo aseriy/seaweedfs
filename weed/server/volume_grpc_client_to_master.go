@@ -2,14 +2,14 @@ package weed_server
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/security"
+	"../security"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../glog"
+	"../pb/master_pb"
+	"../util"
 	"golang.org/x/net/context"
 )
 

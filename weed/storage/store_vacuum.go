@@ -2,7 +2,7 @@ package storage
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"../glog"
 )
 
 func (s *Store) CheckCompactVolume(volumeId VolumeId) (float64, error) {

@@ -2,7 +2,7 @@ package command
 
 import (
 	"github.com/chrislusf/raft/protobuf"
-	"github.com/chrislusf/seaweedfs/weed/security"
+	"../security"
 	"github.com/spf13/viper"
 	"net/http"
 	"os"
@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/server"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../glog"
+	"../pb/master_pb"
+	"../server"
+	"../util"
 	"github.com/gorilla/mux"
 	"google.golang.org/grpc/reflection"
 )

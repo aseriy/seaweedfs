@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"runtime/pprof"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"../glog"
 )
 
 func SetupProfiling(cpuProfile, memProfile string) {

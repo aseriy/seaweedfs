@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
+	"../pb/volume_server_pb"
 	"google.golang.org/grpc"
 	"net/http"
 	"strings"

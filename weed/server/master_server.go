@@ -9,12 +9,12 @@ import (
 	"sync"
 
 	"github.com/chrislusf/raft"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/sequence"
-	"github.com/chrislusf/seaweedfs/weed/topology"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../glog"
+	"../pb/master_pb"
+	"../security"
+	"../sequence"
+	"../topology"
+	"../util"
 	"github.com/gorilla/mux"
 	"github.com/spf13/viper"
 )

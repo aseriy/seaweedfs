@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../util"
 )
 
 var cmdVersion = &Command{

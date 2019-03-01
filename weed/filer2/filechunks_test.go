@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
+	"../pb/filer_pb"
 )
 
 func TestCompactFileChunks(t *testing.T) {

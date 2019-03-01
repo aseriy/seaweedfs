@@ -2,8 +2,8 @@ package command
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/server"
+	"../security"
+	"../server"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc"
 	"io/ioutil"
@@ -13,9 +13,9 @@ import (
 	"strings"
 
 	"context"
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../operation"
+	"../pb/filer_pb"
+	"../util"
 	"io"
 	"net/http"
 	"strconv"

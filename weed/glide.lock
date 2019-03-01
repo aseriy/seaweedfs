@@ -1,8 +1,8 @@
-hash: 306ab43df769fe8072733ba28c3d2b6308288f248ee65806ac7d0bfa3349ab73
-updated: 2019-02-25T00:25:56.429024-08:00
+hash: 3f38391672895ef1f15d36ed4fd438fdf95b30111180c4faf4df3787beaf9c80
+updated: 2019-03-01T12:40:43.521875432-05:00
 imports:
 - name: cloud.google.com/go
-  version: e2c125ceac8b663cfcf4610477d4d67827377cb7
+  version: 7e92b4d51047c91ec65bab1144f1c3183d7db9d6
   subpackages:
   - compute/metadata
   - iam
@@ -14,8 +14,18 @@ imports:
   - pubsub/apiv1
   - pubsub/internal/distribution
   - storage
+- name: github.com/aseriy/seaweedfs
+  version: 729d71fd4cf07709331ba05dd075c54e2effabe9
+  subpackages:
+  - weed/command
+  - weed/glog
+  - weed/operation
+  - weed/pb/filer_pb
+  - weed/security
+  - weed/server
+  - weed/util
 - name: github.com/aws/aws-sdk-go
-  version: 5604f1add1ce6b18465fd50f7fe8de7561cc8a62
+  version: 2c864ae9336a2a5b24aa6c7de3a0369f44774fc6
   subpackages:
   - aws
   - aws/awserr
@@ -67,6 +77,53 @@ imports:
   version: 10d6e2182d923e93ec0cc1aa1d556e5b1f8a39e7
   subpackages:
   - protobuf
+- name: github.com/chrislusf/seaweedfs
+  version: 572d986deefe1d04163db4488ce2b33a52190a75
+  subpackages:
+  - weed/filer2
+  - weed/filer2/abstract_sql
+  - weed/filer2/cassandra
+  - weed/filer2/leveldb
+  - weed/filer2/memdb
+  - weed/filer2/mysql
+  - weed/filer2/postgres
+  - weed/filer2/redis
+  - weed/filesys
+  - weed/glog
+  - weed/images
+  - weed/notification
+  - weed/notification/aws_sqs
+  - weed/notification/google_pub_sub
+  - weed/notification/kafka
+  - weed/notification/log
+  - weed/operation
+  - weed/pb/filer_pb
+  - weed/pb/master_pb
+  - weed/pb/volume_server_pb
+  - weed/replication
+  - weed/replication/sink
+  - weed/replication/sink/azuresink
+  - weed/replication/sink/b2sink
+  - weed/replication/sink/filersink
+  - weed/replication/sink/gcssink
+  - weed/replication/sink/s3sink
+  - weed/replication/source
+  - weed/replication/sub
+  - weed/s3api
+  - weed/security
+  - weed/sequence
+  - weed/server
+  - weed/server/filer_ui
+  - weed/server/master_ui
+  - weed/server/volume_server_ui
+  - weed/statik
+  - weed/stats
+  - weed/storage
+  - weed/storage/needle
+  - weed/storage/types
+  - weed/topology
+  - weed/util
+  - weed/wdclient
 - name: github.com/DataDog/zstd
   version: 1e382f59b41eebd6f592c5db4fd1958ec38a0eba
 - name: github.com/davecgh/go-spew
@@ -90,7 +147,7 @@ imports:
 - name: github.com/fsnotify/fsnotify
   version: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
 - name: github.com/go-redis/redis
-  version: bd542089bb6e776e6fced5038edac8a0f526aa53
+  version: 69c8af34df7a2f3e80754203614031ea9386cba9
   subpackages:
   - internal
   - internal/consistenthash
@@ -101,13 +158,13 @@ imports:
 - name: github.com/go-sql-driver/mysql
   version: 972a708cf97995463843c08c8585b26997daf0e1
 - name: github.com/gocql/gocql
-  version: ec4793573d1447b6f92a1b359a0594566fad9d0e
+  version: f6df8288f9b44e66f50c9a59aee53a705c788dbe
   subpackages:
   - internal/lru
   - internal/murmur
   - internal/streams
 - name: github.com/golang/protobuf
-  version: c823c79ea1570fb5ff454033735a8e68575d1d0f
+  version: b5d812f8a3706043e23a9cd5babf2e5423744d30
   subpackages:
   - proto
   - protoc-gen-go/descriptor
@@ -125,11 +182,11 @@ imports:
   subpackages:
   - v2
 - name: github.com/gorilla/mux
-  version: 8559a4f775fc329165fe32bd4c2543de8ada8fce
+  version: 15a353a636720571d19e37b34a14499c3afa9991
 - name: github.com/hailocab/go-hostpool
   version: e80d13ce29ede4452c43dea11e79b9bc8a15b478
 - name: github.com/hashicorp/golang-lru
-  version: 20f1fb78b0740ba8c3cb143a61e86ba5c8669768
+  version: 7087cb70de9f7a8bc0a10c375cb0d2280a8edf9c
   subpackages:
   - simplelru
 - name: github.com/hashicorp/hcl
@@ -192,7 +249,7 @@ imports:
   - fs
   - fuseutil
 - name: github.com/Shopify/sarama
-  version: 4602b5a8c6e826f9e0737865818dd43b2339a092
+  version: b14e3c695cec874523504cde3c5f62e3c367ea11
 - name: github.com/spaolacci/murmur3
   version: f09979ecbc725b9e6d41a297405f65e7e8804acc
 - name: github.com/spf13/afero
@@ -208,7 +265,7 @@ imports:
 - name: github.com/spf13/viper
   version: d104d259b3380cb653bb793756823c3c41b37b53
 - name: github.com/syndtr/goleveldb
-  version: 9d007e481048296f09f59bd19bb7ae584563cd95
+  version: 4217c9f31f5816db02addc94e56061da77f288d8
   subpackages:
   - leveldb
   - leveldb/cache
@@ -223,11 +280,11 @@ imports:
   - leveldb/table
   - leveldb/util
 - name: github.com/willf/bitset
-  version: 20ad246f50b49590afcb1ed8ad143da7163869cb
+  version: 18bd95f470f9494ca07c36d877424729edc2455c
 - name: github.com/willf/bloom
-  version: 54e3b963ee1652b06c4562cb9b6020ebc6e36e59
+  version: 25ba46ef8744ddeba999dcd048dbb8b0fa87edb3
 - name: go.opencensus.io
-  version: beafb2a85a579a4918ba259877a1625e9213a263
+  version: 22a302cdd30bb5e3c0c894c70decd0b53e96eda0
   subpackages:
   - exemplar
   - internal
@@ -244,13 +301,13 @@ imports:
   - trace/propagation
   - trace/tracestate
 - name: golang.org/x/image
-  version: 31aff87c08e9a5e5d524279a564f96968336f886
+  version: 0694c2d4d067f97ebef574d63a763ee8ab559da7
   subpackages:
   - bmp
   - tiff
   - tiff/lzw
 - name: golang.org/x/net
-  version: 3a22650c66bd7f4fb6d1e8072ffd7b75c8a27898
+  version: 92fc7df08ae7536330f5a21328292abfa70520a8
   subpackages:
   - context
   - context/ctxhttp
@@ -261,31 +318,35 @@ imports:
   - internal/timeseries
   - trace
 - name: golang.org/x/oauth2
-  version: 9b3c75971fc92dd27c6436a37c05c831498658f1
+  version: e64efc72b421e893cbf63f17ba2221e7d6d0b0f3
   subpackages:
   - google
   - internal
   - jws
   - jwt
 - name: golang.org/x/sync
-  version: 37e7f081c4d4c64e13b10787722085407fe5d15f
+  version: e225da77a7e68af35c70ccbf71af2b83e6acac3c
   subpackages:
   - errgroup
   - semaphore
+- name: golang.org/x/sys
+  version: a34e9553db1e492c9a76e60db2296ae7e5fbb772
+  subpackages:
+  - unix
 - name: golang.org/x/text
-  version: 6c92c7dc7f53607809182301b96e4cc1975143f1
+  version: d14c52b222ee852cdba8b07206ca0c614b389876
   subpackages:
   - secure/bidirule
   - transform
   - unicode/bidi
   - unicode/norm
 - name: golang.org/x/tools
-  version: 83362c3779f5f48611068d488a03ea7bbaddc81e
+  version: 589c23e65e65055d47b9ad4a99723bc389136265
   subpackages:
   - godoc/util
   - godoc/vfs
 - name: google.golang.org/api
-  version: 8a550ba84cafabe9b2262c41303f31e5a4626318
+  version: 1e61edccee94899d35fb4f2be2c3dbf636d1bb2b
   subpackages:
   - gensupport
   - googleapi
@@ -300,8 +361,23 @@ imports:
   - transport/grpc
   - transport/http
   - transport/http/internal/propagation
+- name: google.golang.org/appengine
+  version: 54a98f90d1c46b7731eb8fb305d2a321c30ef610
+  subpackages:
+  - cloudsql
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/socket
+  - internal/urlfetch
+  - socket
+  - urlfetch
 - name: google.golang.org/genproto
-  version: 082222b4a5c572e33e82ee9162d1352c7cf38682
+  version: 4f5b463f9597cbe0dd13a6a2cd4f85e788d27508
   subpackages:
   - googleapis/api/annotations
   - googleapis/iam/v1
@@ -310,7 +386,7 @@ imports:
   - googleapis/rpc/status
   - protobuf/field_mask
 - name: google.golang.org/grpc
-  version: 2773c7bbcf81cf358d3f0038b1469b2d44062acb
+  version: 914c52b240b05e4562b1d09e5e7cf3c57495d442
   subpackages:
   - balancer
   - balancer/base

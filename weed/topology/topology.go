@@ -5,11 +5,11 @@ import (
 	"math/rand"
 
 	"github.com/chrislusf/raft"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/master_pb"
-	"github.com/chrislusf/seaweedfs/weed/sequence"
-	"github.com/chrislusf/seaweedfs/weed/storage"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../glog"
+	"../pb/master_pb"
+	"../sequence"
+	"../storage"
+	"../util"
 )
 
 type Topology struct {

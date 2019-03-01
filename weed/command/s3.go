@@ -1,16 +1,16 @@
 package command
 
 import (
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/server"
+	"../security"
+	"../server"
 	"github.com/spf13/viper"
 	"net/http"
 	"time"
 
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/s3api"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../glog"
+	"../s3api"
+	"../util"
 	"github.com/gorilla/mux"
 )
 

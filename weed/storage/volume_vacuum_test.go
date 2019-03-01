@@ -1,7 +1,7 @@
 package storage
 
 import (
-	"github.com/chrislusf/seaweedfs/weed/storage/types"
+	"../storage/types"
 	"io/ioutil"
 	"math/rand"
 	"os"

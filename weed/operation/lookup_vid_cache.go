@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"../glog"
 )
 
 var ErrorNotFound = errors.New("not found")

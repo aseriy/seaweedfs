@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	. "../storage/types"
+	"../util"
 )
 
 func getActualSize(size uint32, version Version) int64 {

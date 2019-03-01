@@ -2,9 +2,9 @@ package topology
 
 import (
 	"context"
-	"github.com/chrislusf/seaweedfs/weed/operation"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
-	"github.com/chrislusf/seaweedfs/weed/storage"
+	"../operation"
+	"../pb/volume_server_pb"
+	"../storage"
 	"google.golang.org/grpc"
 )
 

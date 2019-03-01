@@ -2,7 +2,7 @@ package weed_server
 
 import (
 	"encoding/json"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../util"
 	"google.golang.org/grpc"
 	"io/ioutil"
 	"os"
@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/chrislusf/raft"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/topology"
+	"../glog"
+	"../topology"
 )
 
 type RaftServer struct {

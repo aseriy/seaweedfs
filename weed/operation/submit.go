@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/security"
+	"../glog"
+	"../security"
 )
 
 type FilePart struct {

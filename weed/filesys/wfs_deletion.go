@@ -2,7 +2,7 @@ package filesys
 
 import (
 	"context"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
+	"../pb/filer_pb"
 )
 
 func (wfs *WFS) deleteFileChunks(chunks []*filer_pb.FileChunk) {

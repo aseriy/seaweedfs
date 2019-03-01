@@ -2,7 +2,7 @@ package storage
 
 import (
 	"fmt"
-	. "github.com/chrislusf/seaweedfs/weed/storage/types"
+	. "../storage/types"
 	"github.com/willf/bloom"
 	"os"
 )

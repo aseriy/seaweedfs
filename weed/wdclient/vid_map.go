@@ -8,7 +8,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"../glog"
 )
 
 type Location struct {

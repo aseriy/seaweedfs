@@ -7,8 +7,8 @@ import (
 	"math"
 	"path/filepath"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
+	"../glog"
+	"../pb/filer_pb"
 )
 
 func (dir *Dir) Rename(ctx context.Context, req *fuse.RenameRequest, newDirectory fs.Node) error {

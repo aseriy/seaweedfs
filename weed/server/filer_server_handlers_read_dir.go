@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/chrislusf/seaweedfs/weed/filer2"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	ui "github.com/chrislusf/seaweedfs/weed/server/filer_ui"
+	"../filer2"
+	"../glog"
+	ui "../server/filer_ui"
 )
 
 // listDirectoryHandler lists directories and folers under a directory

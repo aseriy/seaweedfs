@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/storage"
+	"../glog"
+	"../storage"
 )
 
 type NodeId string

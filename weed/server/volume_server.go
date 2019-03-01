@@ -4,9 +4,9 @@ import (
 	"google.golang.org/grpc"
 	"net/http"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/security"
-	"github.com/chrislusf/seaweedfs/weed/storage"
+	"../glog"
+	"../security"
+	"../storage"
 	"github.com/spf13/viper"
 )
 

@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/pb/filer_pb"
+	"../pb/filer_pb"
 )
 
 type Attr struct {

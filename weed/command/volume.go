@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/chrislusf/seaweedfs/weed/security"
+	"../security"
 	"github.com/spf13/viper"
 	"net/http"
 	"os"
@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	"github.com/chrislusf/seaweedfs/weed/pb/volume_server_pb"
-	"github.com/chrislusf/seaweedfs/weed/server"
-	"github.com/chrislusf/seaweedfs/weed/storage"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../glog"
+	"../pb/volume_server_pb"
+	"../server"
+	"../storage"
+	"../util"
 	"google.golang.org/grpc/reflection"
 )
 
