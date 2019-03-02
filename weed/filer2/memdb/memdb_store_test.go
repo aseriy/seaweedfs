@@ -1,7 +1,7 @@
 package memdb
 
 import (
-	"github.com/chrislusf/seaweedfs/weed/filer2"
+	"../../filer2"
 	"testing"
 )
 

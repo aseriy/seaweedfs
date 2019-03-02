@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/chrislusf/seaweedfs/weed/filer2"
-	"github.com/chrislusf/seaweedfs/weed/filer2/abstract_sql"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../../filer2"
+	"../../filer2/abstract_sql"
+	"../../util"
 	_ "github.com/lib/pq"
 )
 

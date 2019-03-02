@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/chrislusf/seaweedfs/weed/filer2"
-	"github.com/chrislusf/seaweedfs/weed/glog"
-	weed_util "github.com/chrislusf/seaweedfs/weed/util"
+	"../../filer2"
+	"../../glog"
+	weed_util "../../util"
 	"github.com/syndtr/goleveldb/leveldb"
 	leveldb_util "github.com/syndtr/goleveldb/leveldb/util"
 )

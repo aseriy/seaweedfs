@@ -2,8 +2,8 @@ package memdb
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/filer2"
-	"github.com/chrislusf/seaweedfs/weed/util"
+	"../../filer2"
+	"../../util"
 	"github.com/google/btree"
 	"strings"
 )

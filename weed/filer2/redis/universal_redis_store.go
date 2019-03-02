@@ -2,8 +2,8 @@ package redis
 
 import (
 	"fmt"
-	"github.com/chrislusf/seaweedfs/weed/filer2"
-	"github.com/chrislusf/seaweedfs/weed/glog"
+	"../../filer2"
+	"../../glog"
 	"github.com/go-redis/redis"
 	"sort"
 	"strings"
